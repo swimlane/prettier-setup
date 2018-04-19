@@ -8,6 +8,13 @@
     "prettier": "prettier --write \"**/*.js\"",
     "lint": "eslint ."
   },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "prettier-setup": "bin/prettier-setup.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/swimlane/prettier-setup.git"
