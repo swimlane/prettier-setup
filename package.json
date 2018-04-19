@@ -4,7 +4,8 @@
   "description": "A CLI tool for adding Prettier to projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"undefined\""
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,13 @@
     "node": ">= 6.14.1"
   },
   "dependencies": {
-    "prompt": "^1.0.0",
+    "inquirer": "^5.2.0",
     "shelljs": "^0.8.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-swimlane": "^1.1.0"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-swimlane": "^1.1.0",
+    "prettier": "^1.12.1"
   }
 }

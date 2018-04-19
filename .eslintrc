@@ -1,10 +1,1 @@
-{
-  "extends": "swimlane/base",
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "rules": {
-    "strict": 2
-  }
-}
+{"extends":["swimlane/base","eslint-config-prettier","eslint-config-prettier","eslint-config-prettier"],"env":{"es6":true,"node":true},"rules":{"strict":2}}
