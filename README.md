@@ -10,6 +10,7 @@ npm install -g @swimlane/prettier-setup
 ## Usage
 In a terminal, navigate to a project's directory and run `prettier-setup`.
 This will prompt the user for the name of a Prettier configuration package to use (such as [`@swimlane/prettier-config-swimlane`](https://github.com/swimlane/prettier-config-swimlane)) and a [glob](https://github.com/isaacs/node-glob) pattern of files to format with Prettier.
+If no Prettier configuration package name is provided, the user will be guided through building one.
 > Note: `prettier-setup` assumes a `package.json` file exists in the same directory it's invoked in.
 
 ### Output
