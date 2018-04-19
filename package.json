@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write \"undefined\""
+    "prettier": "prettier --write \"**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "shelljs": "^0.8.1"
   },
   "devDependencies": {
+    "@swimlane/prettier-config-swimlane": "^0.1.1",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-swimlane": "^1.1.0",

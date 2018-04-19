@@ -1,4 +1,4 @@
 'use strict';
 
-module.exports = require('undefined');
+module.exports = require('@swimlane/prettier-config-swimlane');
   
