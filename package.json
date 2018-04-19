@@ -1,0 +1,24 @@
+{
+  "name": "@swimlane/prettier-setup",
+  "version": "0.0.0",
+  "description": "A CLI tool for adding Prettier to projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimlane/prettier-setup.git"
+  },
+  "keywords": [
+    "prettier",
+    "setup",
+    "init"
+  ],
+  "author": "Swimlane <contact@swimlane.com> (https://github.com/swimlane)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swimlane/prettier-setup/issues"
+  },
+  "homepage": "https://github.com/swimlane/prettier-setup#readme"
+}
