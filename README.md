@@ -13,7 +13,7 @@ This will prompt the user for the name of a Prettier configuration package to us
 > Note: `prettier-setup` assumes a `package.json` file exists in the same directory it's invoked in.
 
 ### Output
- - Creates a [Prettier configuration file](https://prettier.io/docs/en/configuration.html) named `prettier.config.js`.
+ - Creates a [Prettier configuration file](https://prettier.io/docs/en/configuration.html) named `prettier.config.js` or `.prettierrc`.
  - If a `.gitignore` file is found, creates a [`.prettierignore`](https://prettier.io/docs/en/ignore.html) file with the same contents as `.gitignore`.
  - If a `.eslintrc` file is found, adds [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) as an extended configuration.
  - If a `tslint.json` file is found, adds [`tslint-config-prettier`](https://github.com/alexjoverm/tslint-config-prettier) as an extended configuration.
