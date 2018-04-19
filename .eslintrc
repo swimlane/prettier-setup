@@ -1,11 +1,6 @@
 {
   "extends": [
     "swimlane/base",
-    "eslint-config-prettier",
-    "eslint-config-prettier",
-    "eslint-config-prettier",
-    "eslint-config-prettier",
-    "eslint-config-prettier",
     "eslint-config-prettier"
   ],
   "env": {
