@@ -27,5 +27,9 @@
   "dependencies": {
     "npm": "^5.8.0",
     "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-swimlane": "^1.1.0"
   }
 }
