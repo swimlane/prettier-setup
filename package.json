@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/swimlane/prettier-setup/issues"
   },
-  "homepage": "https://github.com/swimlane/prettier-setup#readme"
+  "homepage": "https://github.com/swimlane/prettier-setup#readme",
+  "engines": {
+    "node": ">= 6.14.1"
+  },
+  "dependencies": {
+    "npm": "^5.8.0",
+    "prompt": "^1.0.0"
+  }
 }
